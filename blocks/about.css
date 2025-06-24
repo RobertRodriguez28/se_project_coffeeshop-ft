@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #0a2850;
   position: relative;
-  color:white;
+  color: white;
   z-index: 0;
   overflow: hidden;
 }
@@ -51,8 +51,7 @@
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
-@keyframes pulsate {
-  0%  {
+@keyframes pulsate 0% {
   opacity: 0;
 }
 
@@ -62,5 +61,5 @@
 
 100% {
   opacity: 0;
-  transform:scale(1.2);
+  transform: scale(1.2);
 }
