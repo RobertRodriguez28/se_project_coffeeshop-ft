@@ -1,5 +1,5 @@
 .reservation {
-  padding: 100px 0 215px;
+  padding: 100px 0 100px;
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
   background-repeat: no-repeat;
@@ -9,7 +9,6 @@
 
 .reservation__form {
   margin: 0 auto;
-  padding: 120px;
 }
 
 .reservation__title {
