@@ -75,7 +75,6 @@
                 title="Youtube Video Player"
                 allow="accelerometer; autoplay;
                 clipboard-write; encrypted-media; gyroscope; picture-in picture; web-share"
-                referrerrepollicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
               <div class="recipes__videos-captions">
@@ -90,8 +89,7 @@
                 title="Youtube Video Player"
                 allow="accelerometer; autoplay;
         clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerrepollicy="strict-origin-when-cross-origin"
-                allowfullscreem
+                allowfullscreen
               ></iframe>
               <div class="recipes__videos-captions">
                 <h3 class="recipes__video-caption">French Press recipe</h3>
@@ -102,7 +100,7 @@
         </section>
         <section class="reservation" id="book-a-table">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="form reservation__form">
+          <form action="#" class="form reservation__form">
             <fieldset class="form__fieldset">
               <!--TODO: establish for/id attribute pairs-->
               <!--TODO: placeholders-->
@@ -118,12 +116,12 @@
                   required
                 />
               </label>
-              <label for="number of guests" class="form__label">
+              <label for="number-of-guest" class="form__label">
                 Number of guest*
                 <input
-                  type="number of guests"
-                  id="number of guest"
-                  name="number of guest"
+                  type="number"
+                  id="number-of-guest"
+                  name="number-of-guest"
                   class="form__input"
                   placeholder="1-8"
                   min="1"
@@ -133,11 +131,10 @@
               <label for="datetime-local" class="form__label">
                 Date & time*
                 <input
-                  type="datetime-local"
+                  type="date"
                   id="datetime-local"
                   name="datetime-local"
                   class="form__input"
-                  placeholder=""
                   required
                 />
               </label>
@@ -153,7 +150,7 @@
                 />
               </label>
             </fieldset>
-            <button type="sumbit" class="form__button">Book a table</button>
+            <button type="submit" class="form__button">Book a table</button>
             <label
               for="terms-of-use"
               class="form__label form__label_type_checkbox"
